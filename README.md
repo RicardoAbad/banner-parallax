@@ -1,5 +1,7 @@
 # Banner Parallax
 
+### 2 scenas branch WIP
+
 What's that ?
 -------
 -This is a **parallax.js** experiment created only for learnig.

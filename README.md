@@ -9,6 +9,10 @@ What's that ?
 But in this point, i think that *can be useful for a variety of pourposes*, so i go to work in it one more deep level...
 
 
+![imagen estática del resultado](./images/aldeaweb_com.jpg)
+
+
+
 **Added styl file** to use Stylus preprocessor.
 
 I use node.js with this command *(add -c to compress the css ouput and autoprefixer-stylus --with "{ browsers: ['ie 7', 'ie 8'] }" if you want specific options to use in the especific plugin)*:

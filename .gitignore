@@ -5,3 +5,7 @@ Thumbs.db
 *.cfg
 #Ignore PSD files 
 psd/
+#ignore eslint empty config
+.eslintrc.json
+#ignore Visual Studio Code empty config
+.vscode/

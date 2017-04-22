@@ -1,190 +1,235 @@
 <!doctype html>
 <html lang="es">
 
-<head>
-  <meta charset="utf-8">
-  <title>Creaciones Ricardo | Banner interactivo animado a pantalla completa</title>
-  <link rel="stylesheet" type="text/css" href="css/banner.css" />
-  <meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no">
-  <meta name="description" content="Pagina de experimentación con banner interactivo para destacar una Landing Page, una Tarjeta de felicitación, o para empezar un cuento....">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-	<meta name="author" content="Ricardo Abad Puig, ricardoabadpuig@gmail.com">
-	<meta name='owner' content='Ricardo Abad Puig'>
-	<meta name='url' content='http://recursos.yoytuweb.hol.es/banner-parallax/banner.html'>
-	<meta name='identifier-URL' content='http://yoytuweb.hol.es'>
-	<meta name='HandheldFriendly' content='True'>
-	<meta name='MobileOptimized' content='320'>
-	<meta name="copyright" content="Ricardo Abad Puig">
-	<meta name="subject" content="Banner interactivo animado a pantalla completa">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="Pagina de experimentación con banner interactivo para destacar una Landing Page, una Tarjeta de felicitación, o para empezar un cuento....">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<meta name="author" content="Ricardo Abad Puig, ricardoabadpuig@gmail.com">
+		<meta name='owner' content='Ricardo Abad Puig'>
+		<meta name='url' content='http://recursos.yoytuweb.hol.es/banner-parallax/banner.html'>
+		<meta name='identifier-URL' content='http://yoytuweb.hol.es'>
+		<meta name='HandheldFriendly' content='True'>
+		<meta name='MobileOptimized' content='320'>
+		<meta name="copyright" content="Ricardo Abad Puig">
+		<meta name="subject" content="Banner interactivo animado a pantalla completa">
+		<!-- facebook metas -->
+		<meta property="og:url" content="http://recursos.yoytuweb.hol.es/banner-parallax/banner.html" />
+		<meta property="og:type" content="article" />
+		<meta property="og:locale" content="es_ES" />
+		<meta property="og:site_name" content="Ricardo Abad" />
+		<meta property="og:title" content="Banner interactivo animado a pantalla completa" />
+		<meta property="og:description" content="Pagina de experimentación con banner interactivo para destacar una Landing Page, una Tarjeta de felicitación, o para empezar un cuento...." />
+		<meta property="og:image" content="http://recursos.yoytuweb.hol.es/banner-parallax/images/aldeaweb_com.jpg" />
 
-	<meta property="og:url" content="http://recursos.yoytuweb.hol.es/banner-parallax/banner.html" />
-	<meta property="og:type" content="article" />
-	<meta property="og:locale" content="es_ES" />
-	<meta property="og:site_name" content="Ricardo Abad" />
-	<meta property="og:title" content="Banner interactivo animado a pantalla completa" />
-	<meta property="og:description" content="Pagina de experimentación con banner interactivo para destacar una Landing Page, una Tarjeta de felicitación, o para empezar un cuento...." />
-	<meta property="og:image" content="http://recursos.yoytuweb.hol.es/banner-parallax/images/aldeaweb_com.jpg" />
-</head>
+		<title>Creaciones Ricardo | Banner interactivo animado a pantalla completa</title>
+		
+		<!-- General style + Fonts de google + fullPage Plugin-->
+		<!-- <link href='https://fonts.googleapis.com/css?family=Lobster|Coming+Soon' rel='stylesheet' type='text/css'> -->
+		<link href='https://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/banner.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			  .gradient {
+			    filter: none;
+			  }
+			</style>
+		<![endif]-->
+	</head>
 
-<body id="body-top">
-  <header id="header" class="clearfix">
-  </header>
-  <section class="container clearfix">
-    <ul id="scene" class="scene wave-medium" data-limit-x="100">
+	<body id="body-top" class="page-index">
+		<div class="fullpage" id="main-container">
 
-      <li class="layer" data-depth="0.00">
-        <div class="background level-7"></div>
-      </li>
-      <li class="layer nubes-lejos" data-depth="1.60">
-        <div class="level-6"><img src="images/parallax-banner/level-6.png"></div>
-      </li>
-      <li class="layer sol" data-depth="1.60">
-        <div class="level-5-5"><img class="swing" src="images/parallax-banner/giphy.gif"></div>
-      </li>
 
-      <li class="layer nubes-cerca" data-depth="1.30">
-        <div class="wave-medium"><div class="level-5"><img src="images/parallax-banner/level-5.png" /></div></div>
-      </li>
+			<article id="page-1" class="section">
+				<section class="container clearfix gradient">
+					<ul id="scene" class="scene wave-medium" data-limit-x="100">
+						<li class="layer" data-depth="0.00">
+							<div class="background level-7"></div>
+						</li>
+						<li class="layer nubes-lejos" data-depth="1.60">
+							<div class="level-6"><img src="images/parallax-banner/level-6.png"></div>
+						</li>
+						<li class="layer sol" data-depth="1.60">
+							<div class="level-5-5"><img class="swing" src="images/parallax-banner/giphy.gif"></div>
+						</li>
+						<li class="layer nubes-cerca" data-depth="1.30">
+							<div class="wave-medium"><div class="level-5"><img src="images/parallax-banner/level-5.png" /></div></div>
+						</li>
+						<li class="layer arboles-lejos" data-depth="1.20">
+							<div class="level-4 swing"><img src="images/parallax-banner/level-4.png" /></div>
+						</li>
+						<li class="layer casas lejos" data-depth="1.00">
+							<div class="level-3 swing"><img src="images/parallax-banner/level-3.png"></div>
+						</li>
+						<li class="layer arboles-cerca" data-depth="0.80">
+							<div class="level-2 swing"><img src="images/parallax-banner/level-2.png"></div>
+						</li>
+						<li class="layer matrix" data-depth="0.60">
+							<div class="level-1-1 swing"><img class=" wave-slow" src="images/parallax-banner/matrix-5.gif"></div>
+						</li>
+						<li class="layer tierra" data-depth="0.40">
+							<div class="level-1 swing"><img src="images/parallax-banner/level-1.png"></div>
+						</li>
+						<li class="layer sitename" data-depth="0.20">
+							<div class="level-0"><h1 class="center lighthouse">Aldea Web<br><small>by Ricardo Abad</small></h1></div>
+						</li>
+						<li class="layer pajaro" data-depth="0.60">
+							<div class="wrap"><div class="level-3-3 swing"><img class="wave-slow" src="images/parallax-banner/bird.gif"></div></div>
+						</li>
+					</ul>
+					<div class="scroller swing"><span class="bouncer next"> <img src="images/flecha.png" alt=""> </span></div>
+				</section>
+			</article> <!-- / #page-1 .section -->
 
-      <li class="layer arboles-lejos" data-depth="1.20">
-        <div class="level-4 swing"><img src="images/parallax-banner/level-4.png" /></div>
-      </li>
 
-      <li class="layer casas lejos" data-depth="1.00">
-        <div class="level-3 swing"><img src="images/parallax-banner/level-3.png"></div>
-      </li>
 
-      <li class="layer arboles-cerca" data-depth="0.80">
-        <div class="level-2 swing"><img src="images/parallax-banner/level-2.png"></div>
-      </li>
 
-      <li class="layer matrix" data-depth="0.60">
-        <div class="level-1-1 swing"><img class=" wave-slow" src="images/parallax-banner/matrix-5.gif"></div>
-      </li>
 
-      <li class="layer tierra" data-depth="0.40">
-        <div class="level-1 swing"><img src="images/parallax-banner/level-1.png"></div>
-      </li>
 
-      <li class="layer sitename" data-depth="0.20">
-        <div class="level-0">
-          <h1 class="center lighthouse">Aldea Web</h1></div>
-      </li>
 
-      <li class="layer pajaro" data-depth="0.60">
-        <div class="wrap"><div class="level-3-3 swing"><img class="wave-slow" src="images/parallax-banner/bird.gif"></div></div>
-      </li>
+			<article id="page-2" class="section fondo-section-2">
+				<section class="clearfix">
+					<ul class="scene wave-medium" id="scene-2" data-limit-x="100">
+						<li class="layer layer-1" data-depth="0.05">
+							<div class="background bola-beis"><img src="images/parallax-banner/bola-beis.png"></div>
+						</li>
+						<li class="layer layer-2" data-depth="0.10">
+							<div class="background swing bola-azul"><img src="images/parallax-banner/bola-azul.png"></div>
+						</li>
+						<li class="layer layer-3" data-depth="0.60">
+							<div class="background swing mano out"><img src="images/parallax-banner/mano.gif"></div>
+						</li>
+						<li class="layer layer-4" data-depth=".2">
+							<div class="background wave-medium cat out"><img class="swing" src="images/parallax-banner/cat.gif"></div>
+						</li>
+						<li class="layer layer-5" data-depth="0.8" style="width:100%;">
+							<div class="flex-content">
+								<section class="wave-medium" style="margin-top: -200px;">
+									<!-- <p class="lighthouse"><button type="button" class="prev">Volver</button></p> -->
+									<h2 class="lighthouse">Bienvenid@ <small>a</small> esta <big>Aldea</big> ...</h2>
+									<h4 class="swing">... que es un lugar fantástico, construido<br>a través de mi experiencia como desarrollador web.</h4>
+									<h4 class="swing">Suelo trabajar como FREELANCE,<br>aunque estoy abierto a propuestas diferentes,<br>pero eso es otro lugar de la Aldea.</h4>
+									<h4 class="swing">Continuemos ...</h4>
+									<!-- <p class="lighthouse"><button type="button" class="next">Continuar</button></p> -->
+								</section>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</article> <!-- / #page-2 .page -->
 
-    </ul>
-    <div class="scroller swing"><a href="#blue-section" class="bouncer goto-slow"> <img src="images/parallax-banner/flecha.png" alt=""> </a></div>
-  </section>
-	<section class="padding" id="blue-section">&nbsp;</section>
-  <section class="blues-section" style="margin-top: -40px">
-  	<div class="wrapped clearfix padding round-top">
-  		<h2 class="center"><span class="super-text">Aldea Web - By: Ricardo Abad</span></h2>
-	  </div>
-  </section>
 
-  <section class="transparent-section inverted-gradient">
-  	<div class="stars">
-	  	<div class="wrapped clearfix padding round-bottom" id="ein">
-	  		<h2 class="center">Lo interesante y práctico que es aprender jugando.</h2>
-		  	<p>Siempre me ha encantado <strong>experimentar</strong> con las animaciones mediante código, pero hasta ahora, los problemas de <strong>compatibilidad</strong> entre los distintos navegadores eran muy acentuados. Aunque hoy en día, tampoco puede decirse que todos los grandes navegadores respetan y cumplen las recomendaciones de los estándares web, ya se puede jugar un poco mas tranquilo con las nuevas reglas para crear estilos y animaciones mucho más profesionales y sin perjudicar demasiado el <strong>rendimiento</strong> de la página.</p>
-		  	<figure class="p-img">
-		  		<img src="images/aldeaweb_com.jpg" alt="aldeaweb resultado estatico" title="Pre-diseño en Photoshop para separar las capas en grupos.">
-		  		<figcaption class="center"><small>Pre-diseño en Photoshop para separar las capas en grupos.</small></figcaption>
-		  	</figure>
-		  	<p> En este caso, el objetivo lo tenía claro desde el principio, aunque el dinamismo final ha sido fruto de un poco de juego con la parte gráfica potenciando la animación mediante el código.</p>
-		  	<p>¿El resultado?. Pues como puedes ver en este ejemplo básico tiene <strong>bastantes aplicaciones</strong> que considero interesantes.<br>Por ejemplo, tal como he ido avanzando, prácticamente desde el principio me ha parecido muy interesante como introducción a algún cuento para niñ@s, con un diseño suave y sencillo el cual sintoniza con las animaciones.<br>Pero la cosa puede ser distinta con otro tipo de diseño gráfico y otras animaciones diferentes, por ejemplo, imagina un grupo de música moviéndose sobre el escenario, o un barco navegando, o spíderman saltando de pared a pared, etc... </p>
-		  	<p>He de reconocer que después de esto, me apetece intentar un tipo de efecto mucho más dinámico e impactante, así que te dejo con las ganas hasta que lo tenga terminado.<br>¡¡¡ Hasta Prontooo !!!</p>
-		  </div>
 
-			<div class="night lighthouse">
-				<p class="center padding round blues swing">UPS , se ha hecho de noche, <a href="#body-top" class="goto swing">volver arriba</a>, que será de día...</p>
-				<div class="luna center wave">
-					<a href="#body-top" class="goto" title="Volver arriba de la página."><img src="images/parallax-banner/luna.gif" alt="" class="swing"></a>
-				</div>
-			</div>
+
+
+
+			<article id="page-2a" class="section inverted-gradient gradient text-shadow">
+				<section class="wave-medium clearfix">
+					<div class="flex-content">
+						<h2 class="center lighthouse">... con el prólogo.</h2>
+						<h3 class="center swing super-text">¿Que puedes encontrar en este espacio web?</h3>
+						<h4 class="center swing big-text">1.- Sobre Mi : Información acerca de mi.</h4>
+						<h4 class="center swing big-text">2.- Portafolio : Algunos de mis trabajos realizados.</h4>
+						<h4 class="center swing big-text">3.- Servicios : Cómo y en qué puedo serte útil.</h4>
+						<h4 class="center swing big-text">4.- Contacto : Mándame unas palabras.</h4>
+					</div>
+				</section>
+			</article> <!-- / #page-2a .page -->
+
+
+
+
+
+
+			<article id="page-2b" class="section black-gradient gradient text-shadow">
+				<section class="wave-medium clearfix">
+					<div class="flex-content">
+
+						<div class="centered center wave-slow">
+							<h2 class="lighthouse super-text">...y comenzemos la aventura, ¿Dónde vamos primero?</h2>
+						</div>
+
+						<section class="flex-rows">
+							<div class="link-1 out">
+								<div class="bounce-1">
+									<div class="margin-sides lighthouse">
+										<a href="sobre-mi.html" class="btn-block swing">
+											<h2 class="wave-scale">Sobre Mi</h2>
+											<img class="initial-image" src="images/sobre-mi.png" alt="">
+											<img class="sorpresa wave-scale top left " src="images/sobre-mi.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="link-2 out">
+								<div class="bounce-2">
+									<div class="margin-sides lighthouse">
+										<a href="portafolio.html" class="btn-block swing">
+											<h2 class="wave-scale">Portafolio</h2>
+											<img class="initial-image" src="images/portafolio.png" alt="">
+											<img class="sorpresa wave-scale top right " src="images/portafolio.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="flex-rows">
+							<div class="link-3 out">
+								<div class="bounce-3">
+									<div class="margin-sides margin-top lighthouse">
+										<a href="servicios.html" class="btn-block swing">
+											<h2 class="wave-scale">Servicios</h2>
+											<img class="initial-image" src="images/servicios.png" alt="">
+											<img class="sorpresa wave-scale bottom left " src="images/servicios.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="link-4 out">
+								<div class="bounce-4">
+									<div class="margin-sides margin-top lighthouse">
+										<a href="contacto.html" class="btn-block swing">
+											<h2 class="wave-scale">Contacto</h2>
+											<img class="initial-image" src="images/contacto.png" alt="">
+											<img class="sorpresa wave-scale bottom right " src="images/contacto.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</section>
+			</article> <!-- / #page-2b .page -->
+
+
 
 
 		</div>
-  </section>
 
+		<aside id="controls">
+			<button id="page-down" class="next"><span></span></button>
+			<button id="page-up" class="prev"><span></span></button>
+			<button id="audio_control" class="vol-off"><span></span></button>
+		</aside>
 
+		<audio id="soundtrack_index" src="audio/final.mp3" autoplay loop>
+			<p>Tu navegador no implementa el elemento audio</p>
+		</audio>
+		<audio id="hover" src="audio/btn.mp3"></audio>
+		<audio id="hover_off" src="audio/button.mp3"></audio>
+		<audio id="slide_sound" src="audio/swap.mp3"></audio>
 
-</body>
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script type="text/javascript">
-$(function() {
-	if ($(window).width() < 481) {
-  	$('#scene').parallax( { limitY:1 } );
-	} else{
-		$('#scene').parallax( { limitY:20 } );
-	};
-  
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.parallax.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script src="js/code.js"></script>
 
-
-	$(window).on('scroll', function(event) {
-		/*Simulating parallax scroll*/
-		var wScroll = $(window).scrollTop();
-		var wHeight = $(window).height();
-		var opacity = 1 - (wScroll/800); 
-		$('.sitename div').css({
-			'-webkit-transform': 'translateY('+ (wScroll / 2)*2.25 +'px) scale('+ ( 1+(wScroll / 800) ) +')',
-			'-moz-transform': 'translateY('+ (wScroll / 2)*2.25 +'px) scale('+ ( 1+(wScroll / 800) ) +')',
-			'-ms-transform': 'translateY('+ (wScroll / 2)*2.25 +'px) scale('+ ( 1+(wScroll / 800) ) +')',
-			transform: 'translateY('+ (wScroll / 2)*2.25 +'px) scale('+ ( 1+(wScroll / 800) ) +')',
-			opacity: opacity
-		});
-
-		$('.pajaro .wrap').css({
-			'-webkit-transform': 'translateX('+ (wScroll / 2)*3 +'px) translateY('+ (wScroll / 2)*.5 +'px) scale('+ ( 1+(wScroll / 500) ) +')',
-			'-moz-transform': 'translateX('+ (wScroll / 2)*3 +'px) translateY('+ (wScroll / 2)*.5 +'px) scale('+ ( 1+(wScroll / 500) ) +')',
-			'-ms-transform': 'translateX('+ (wScroll / 2)*3 +'px) translateY('+ (wScroll / 2)*.5 +'px) scale('+ ( 1+(wScroll / 500) ) +')',
-			transform: 'translateX('+ (wScroll / 2)*3 +'px) translateY('+ (wScroll / 2)*.5 +'px) scale('+ ( 1+(wScroll / 500) ) +')',
-		});
-
-		$('.level-5-5').css({
-			'-webkit-transform': 'translateX(-'+ (wScroll / 2)*1.1 +'px) translateY('+ (wScroll / 1.3) +'px) scale('+ ( 1-(wScroll / 1000) ) +')',
-			'-moz-transform': 'translateX(-'+ (wScroll / 2)*1.1 +'px) translateY('+ (wScroll / 1.3) +'px) scale('+ ( 1-(wScroll / 1000) ) +')',
-			'-ms-transform': 'translateX(-'+ (wScroll / 2)*1.1 +'px) translateY('+ (wScroll / 1.3) +'px) scale('+ ( 1-(wScroll / 1000) ) +')',
-			transform: 'translateX(-'+ (wScroll / 2)*1.1 +'px) translateY('+ (wScroll / 1.3) +'px) scale('+ ( 1-(wScroll / 1000) ) +')',
-		});
-	});
-
-	/*Scroll to section smoth SLOOOOWWWWWWWLLLLLYYYYYY*/
-	$('.goto-slow').on('click', function(event) {
-		event.preventDefault();
-		var $anchor = $(this);
-		var pos_ancla = $($anchor.attr('href')).offset().top;
-		$('html, body').stop().animate({
-			scrollTop: pos_ancla
-		}, 8000);
-	});
-	/*Scroll to section smoth*/
-	$('.goto').on('click', function(event) {
-		event.preventDefault();
-		var $anchor = $(this);
-		var pos_ancla = $($anchor.attr('href')).offset().top;
-		$('html, body').stop().animate({
-			scrollTop: pos_ancla
-		}, 2000);
-	});
-
-	setTimeout(function(){
-		var wScroll = $(window).scrollTop();
-		var ancla = $('#blue-section').offset().top;
-		if (wScroll > 0) {
-			return false;
-		} else{
-		  $('html, body').stop().animate({
-				scrollTop: ancla
-			}, 15000);
-		};
-	}, 15000);
-
-});
-</script>
+	</body>
 
 </html>
